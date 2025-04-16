@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Minute Meeting of Group Project">
+    <title>Group Project Meeting</title>
+    <link rel="icon" href="materials/favicon.ico">
+  </head>
+  <body>
+    <header>
+        <h1>Group Project Meeting</h1>
+        <h2>Topic of Meeting: Assigning roles</h2>
+        <h3>Date: 4/12/2025</h3>
+        <nav>
+            <a href="#agenda">Agenda</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Attendance</h2>
+            <ul>
+                <li>Arman</li>
+                <li>Other Group Members</li>
+            </ul>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ol>
+                <li>Getting to know each other better</li>
+                <li>Assinging roles to everyone</li>
+                <li>Icebreaker</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Unfinished Business</h2>
+            <p>Have everyone introduce themselves along with their strong and weak sides.</p>
+        </section>
+
+        <section>
+            <h2>New Business</h2>
+            <div>
+                <p>We <strong>need</strong> to <span>sort everything</span> out before the deadline which is <b>4/16/2025</b></p>
+                <p>Certain roles will need <em>several people</em> working on it.</p>
+                <p>Additionally, need to understand how to divide <i>responsibily</i> amongst members.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Next steps</h2>
+            <details>
+                <summary>What has been done so far?</summary>
+                <ul>
+                    <li>Meeting set up</li>
+                    <li>Group online for communication created</li>
+                </ul>
+            </details>
+        </section>
+        <section>
+            <h2>Meeting Diagram</h2>
+            <figure>
+                <img src="materials/image.png" alt="Meeting sketch">
+            </figure>
+        </section>
+        <section>
+            <h2>Group video and audio</h2>
+            <video width="480" height="200" controls>
+                <source src="materials/video.mp4" type="video/mp4">
+            </video>
+            <audio controls>
+                <source src="materials/audio.mp4" type="audio/mp4">
+            </audio>
+        </section>
+        <section>
+            <h2>Attendance Check</h2>
+            <form>
+                <fieldset>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="date">Today's date:</label>
+                    <input type="date" id="date" name="date"><br>
+                    <label>Did you enjoy the meeting?</label><br>
+                    <input type="radio" id="yes" name="enjoy" value="YES">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="enjoy" value="NO">
+                    <label for="no">No</label><br>
+                    <label>What of these do you wish to see in future meetings? (Select all that apply)</label><br>
+                    <input type="checkbox" id="candy" name="future" value="CANDY">
+                    <label for="candy">Candy</label>
+                    <input type="checkbox" id="shorter" name="future" value="SHORTER">
+                    <label for="shorter">Shorter Meetings</label><br>
+                    <input type="checkbox" id="longer" name="future" value="LONGER">
+                    <label for="shorter">Longer Meetings</label><br>
+                    <label for="mood">Your current mood:</label>
+                    <input list="moods" id="mood" name="mood">
+                    <datalist id="moods">
+                        <option value="Happy">
+                        <option value="Sad">
+                        <option value="Tired">
+                    </datalist><br>
+                    <label for="teamname">Choose preferred team name:</label>
+                    <select id="teamname" name="teamname">
+                        <option value="team1">ABC</option>
+                        <option value="team2">CBA</option>
+                    </select><br>
+                    <label for="ideas">Any additional ideas for future meetings:</label>
+                    <textarea id="ideas" name="ideas" rows="2" cols="20"></textarea><br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Thanks for coming</p>
+    </footer>
+  </body>
+</html>
