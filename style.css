@@ -37,3 +37,14 @@ section {
     border-radius: 5%;
     margin: 0.5em auto
 }
+
+audio {
+    display: block;
+}
+
+section#attendance {
+    max-width: 700px;
+    min-width: none;
+    height: 500px;
+    width: 600px;
+}
