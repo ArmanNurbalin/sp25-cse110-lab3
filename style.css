@@ -1,0 +1,12 @@
+/* Variables and Fallbacks */
+:root{
+    --main-bg-color: rgb(162, 162, 235);
+    --font-size: 20px;
+    --fallback-color: blue;
+}
+
+body {
+    font-family:'Poiret One', sans-serif;
+    font-size: var(--font-size);
+    background-color: var(--main-bg-color, var(--fallback-color));
+}
