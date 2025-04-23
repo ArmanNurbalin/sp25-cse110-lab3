@@ -54,6 +54,6 @@ button:hover {
     color: red;
 }
 
-nav a:hover {
+nav a:active {
     color: pink;
 }
