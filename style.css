@@ -22,6 +22,7 @@ body {
 }
 
 header {
+    position: sticky;
     text-align: center;
     text-decoration: underline;
     color: color(display-p3 0.9 0.5 0.5);
@@ -33,9 +34,11 @@ header {
 section {
     border-style: solid;
     border-color: black;
-    border-width: 1px;
-    border-radius: 5%;
-    margin: 0.5em auto
+    border-width: 1%;
+    border-radius: 5vw;
+    margin: 1em auto;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 audio {
@@ -43,11 +46,13 @@ audio {
 }
 
 section#attendance {
+    position:relative;
     font-family: 'Montserrat Alternates', sans-serif;
     max-width: 700px;
     min-width: none;
     height: 500px;
-    width: 600px;
+    width: 50cm;
+    padding-bottom: 0.5in;
 }
 
 button:hover {
@@ -73,7 +78,7 @@ section#agenda ol {
     display: grid;
     align-self: center;
     gap: 10px;
-    justify-content:center
+    justify-content:center;
 
 }
 
