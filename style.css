@@ -82,4 +82,15 @@ section#agenda ol {
 
 }
 
+@media (min-height: 680px), screen and (orientation: portrait) {
+    body {
+        font-size: var(--font-size);
+        padding: 1em;
+    }
+
+    section {
+        border-width: 1%;
+        padding: 1em;
+    }
+}
 
