@@ -61,3 +61,20 @@ nav a {
 nav a:active {
     color: pink;
 }
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+section#agenda ol {
+    display: grid;
+    align-self: center;
+    gap: 10px;
+    justify-content:center
+
+}
+
+
