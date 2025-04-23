@@ -43,8 +43,17 @@ audio {
 }
 
 section#attendance {
+    font-family: 'Montserrat Alternates', sans-serif;
     max-width: 700px;
     min-width: none;
     height: 500px;
     width: 600px;
+}
+
+button:hover {
+    color: red;
+}
+
+nav a:hover {
+    color: pink;
 }
